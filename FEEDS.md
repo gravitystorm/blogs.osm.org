@@ -9,7 +9,7 @@ The configuration file that contains the list of feeds currently used is [planet
 The aggregator should contain articles from blogs that are relevant to the OpenStreetMap community.
 
 * For personal blogs, we prefer feeds for OpenStreetMap categories or tags, rather than full blogs which can contain a wide variety of subjects
-* We prefer feeds which include the full text of the blog posts rather them just the top section/summary.
+* We prefer feeds which include the full text of the blog posts rather than just the top section/summary.
 * We will include Organisation feeds only if a majority of their posts are of interest to mappers, rather than posts about products that contain OpenStreetMap functionality.
 * We will consider removing feeds if less than 30% of their recent entries are related to OpenStreetMap.
 * We will remove feeds if a domain is no longer relevant to the OpenStreetMap community
