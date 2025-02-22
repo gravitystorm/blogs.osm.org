@@ -42,6 +42,7 @@ GEM
     logutils-activerecord (0.2.1)
       activerecord
       logutils (>= 0.6.1)
+    mini_portile2 (2.8.8)
     minitest (5.25.4)
     opmlparser (1.0.1)
     ostruct (0.6.1)
@@ -93,9 +94,8 @@ GEM
     rubyzip (2.4.1)
     sassc (2.4.0)
       ffi (~> 1.9)
-    sqlite3 (2.6.0-aarch64-linux-gnu)
-    sqlite3 (2.6.0-arm64-darwin)
-    sqlite3 (2.6.0-x86_64-linux-gnu)
+    sqlite3 (1.7.3)
+      mini_portile2 (~> 2.8.0)
     strscan (3.1.2)
     textutils (1.4.0)
       activesupport
@@ -116,7 +116,7 @@ DEPENDENCIES
   pluto
   rss
   sassc
-  sqlite3
+  sqlite3 (~> 1.4)
 
 BUNDLED WITH
    2.6.2
